@@ -20,6 +20,7 @@
 body, html {
 	font-family : "Helvetica Neue",sans-serif;
 	box-shadow  : 0 none;
+	background-color: rgb(192,163,52)
 }
 
 div[data-iostg=true] {
@@ -33,6 +34,8 @@ div[data-iostg=true] {
 	bottom: 0;
 	right: 0;
 	margin: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 2px #444 inset;
 }
 
 div[data-iostg=true] span.toggle{
@@ -41,8 +44,9 @@ div[data-iostg=true] span.toggle{
 	border-radius: 100%;
 	background-color: white;
 	float: left;
+	box-shadow: 0 0 3px #777;
 }
 div[data-iostg=true] span.state{
-	margin-left: 27px;
+	margin-left: 10px;
 	font-size: 15px;
 }
