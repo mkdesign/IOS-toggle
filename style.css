@@ -15,3 +15,17 @@
 	margin           : 0 auto;
 	padding-top      : 1px;
 }
+
+div[data-iostg=true] {
+	background-color: rgb(0,92,146);
+	width: 40px;
+	height: 20px;
+	padding: 5px;
+}
+
+div[data-iostg=true] span.toggle{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: white;
+}
