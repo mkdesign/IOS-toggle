@@ -3,10 +3,10 @@ window.onload= function	() {
 
 	for(i=0;i<iosToggle.length;i++){
 
-		iosToggle.item(i).hasAttribute("data-iostg")).onclick= function(){
+		iosToggle.item(i).hasAttribute("data-iostg").onclick= function(){
 
 			alert(true);
-		}
+		}	
 			
 		
 	}
