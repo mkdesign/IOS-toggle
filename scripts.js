@@ -1,13 +1,21 @@
 window.onload= function	() {
 	var iosToggle= document.getElementsByTagName('div');
 
+	
+
 	for(i=0;i<iosToggle.length;i++){
 
-		iosToggle.item(i).hasAttribute("data-iostg").onclick= function(){
+		(function(j){
 
-			alert(true);
-		}	
+			iosToggle.item(j).onclick= function(){
+
+
+				if(iosToggle.item(j).hasAttribute("data-iostg")){
+					alert(1)
+				}
+			}
+		})(i)
 			
-		
 	}
+
 }
