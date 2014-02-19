@@ -24,7 +24,6 @@ function toggle (k){
 
 			iosToggle.item(j).onclick= function(){
 
-
 				if(iosToggle.item(j).hasAttribute("data-iostg")){
 					toggle(j);
 				}
