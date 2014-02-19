@@ -45,8 +45,10 @@ div[data-iostg=true] span.toggle{
 	background-color : white;
 	float            : left;
 	box-shadow       : 0 0 3px #777;
+	-webkit-transition:all 500ms;
 }
 div[data-iostg=true] span.state{
 	margin-left : 10px;
 	font-size   : 15px;
+	-webkit-transition:all 400ms;
 }
